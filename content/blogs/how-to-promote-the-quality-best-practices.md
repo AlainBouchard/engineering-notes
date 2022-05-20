@@ -1,4 +1,17 @@
-# How to promote the Quality Best Practices
++++
+title = "How to promote the Quality Best Practices"
+chapter = false
+LastModifierDisplayName = "Alain Bouchard"
+LastModifierEmail = "alain.bouchard@appdirect.com"
+disableToc = "false"
++++
+
+- [How to promote the Quality Best Practices](#how-to-promote-the-quality-best-practices)
+- [Influence or evangelize](#influence-or-evangelize)
+  - [Data-Driven decisions](#data-driven-decisions)
+- [Enforce](#enforce)
+
+## How to promote the Quality Best Practices
 
 Two ways to promote the quality best practices are: *Influencing* the teams or to *enforce* the best practices. A periodical team *reality check* about the current practices is the beginning of the process. A team can easily live in their own *Ivory Tower* or to be *biased* by this statement: *"We always did it that way so why changing it?"*.
 

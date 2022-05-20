@@ -1,4 +1,15 @@
-# Role
++++
+title = "Quality Architect Role"
+LastModifierDisplayName = "Alain Bouchard"
+LastModifierEmail = "alain.bouchard@appdirect.com"
+disableToc = "false"
++++
+
+- [Role](#role)
+- [Strategic](#strategic)
+- [Tactics](#tactics)
+
+## Role
 
 The architect is responsible for two main types of high-level activities:
 

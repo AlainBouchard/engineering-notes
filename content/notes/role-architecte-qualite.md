@@ -1,4 +1,15 @@
-# Role
++++
+title = "Role de l'Architecte Qualité"
+LastModifierDisplayName = "Alain Bouchard"
+LastModifierEmail = "alain.bouchard@appdirect.com"
+disableToc = "false"
++++
+
+- [Role](#role)
+- [Stratégique](#stratégique)
+- [Tactique](#tactique)
+
+## Role
 
 L'architecte est responsable de deux grands types d'activités à haut niveau:
 
@@ -15,7 +26,7 @@ L'architecte est responsable de deux grands types d'activités à haut niveau:
 1. Assister ou diriger des groupes de travail (ou "Work Groups") pour des sujets précis, définir le but et les livrables, événements périodiques et sur plusieurs mois ;
 1. Assister ou diriger des ateliers de travail (ou “Workshops”) pour des sujets précis, définir le but et les livrables, événement sur quelques heures ou quelques jours ;
 1. Audit de la couverture de tests et corrélation des données avec les services problématiques en production (décision basée sur les données ou “Data-Driven”);
-1. Analyser la stratégie de tests actuelle, caractérisation des tests, définir un plan, promouvoir les bonnes pratiques de tests, la pyramide de tests "pratique" (en anglais pour faciliter) : 
+1. Analyser la stratégie de tests actuelle, caractérisation des tests, définir un plan, promouvoir les bonnes pratiques de tests, la pyramide de tests "pratique" (en anglais pour faciliter) :
     1. [Unit] ("solitary" et "sociable") testing ;
     1. [Component] ("in-process" et "out-of-process") testing ;
     1. [Contract] testing ;

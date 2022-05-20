@@ -1,4 +1,19 @@
-# Gradle (6.6.1)
++++
+title = "Gradle"
+LastModifierDisplayName = "Alain Bouchard"
+LastModifierEmail = "alain.bouchard@appdirect.com"
+disableToc = "false"
++++
+
+- [Gradle (6.6.1)](#gradle-661)
+- [Terminology](#terminology)
+- [Actions](#actions)
+- [Files structure for a "Multi-module build"](#files-structure-for-a-multi-module-build)
+- [Commands](#commands)
+- [Example of Typed Task](#example-of-typed-task)
+- [Plugins](#plugins)
+
+## Gradle (6.6.1)
 
 - requires JDK
 - download from [https://gradle.org/releases/]
@@ -63,6 +78,7 @@
 ## Example of Typed Task
 
 - example:
+
   ```groovy
     task copyFiles(type: Copy) {
       from "sourceFiles"
@@ -83,8 +99,8 @@
 
 1. create a reusable or sharable <plugin-name>.gradle file with defined tasks
 1. apply the plugin to the local project build.gradle file, example:
-  1. plugin with tasks: `myPlugin.gradle`
-  1. in `build.gradle`:
+    1. plugin with tasks: `myPlugin.gradle`
+    1. in `build.gradle`:
 
   ```groovy
     apply from: "myPlugin.gradle"

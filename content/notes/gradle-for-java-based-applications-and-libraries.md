@@ -1,9 +1,24 @@
-# Gradle for Java-Based applications and libraries
++++
+title = "Gradle for Java-Based applications and libraries"
+LastModifierDisplayName = "Alain Bouchard"
+LastModifierEmail = "alain.bouchard@appdirect.com"
+disableToc = "false"
++++
 
-## Project structure for gradle project in Java:
+- [Project structure for gradle project in Java](#project-structure-for-gradle-project-in-java)
+- [In build.gradle](#in-buildgradle)
+  - [JAVA plugin](#java-plugin)
+  - [APPLICATION plugin](#application-plugin)
+- [Commands](#commands)
+- [Maven Dependencies](#maven-dependencies)
+- [Testing with Gradle](#testing-with-gradle)
+  - [JUnit 5 dependencies](#junit-5-dependencies)
+
+## Project structure for gradle project in Java
 
 - single Java project with Gradle
   - example:
+
   ```text
     root
      + src
@@ -21,6 +36,7 @@
 
 - A multi-modules project file structure:
   - example:
+
   ```text
     root/
      + appA/
@@ -41,9 +57,9 @@
        ... (same as above subproject)
   ```
 
-# In build.gradle
+## In build.gradle
 
-## JAVA plugin
+### JAVA plugin
 
 - add plugins:
 
@@ -90,7 +106,7 @@ Set javadoc options:
   }
   ```
 
-## APPLICATION plugin
+### APPLICATION plugin
 
 - in `build.gradle` file:
 
@@ -157,12 +173,13 @@ Set javadoc options:
     dependencies {
       implementation 'commons-cli:commons-cli:1.4'  // get from maven repo search results
       implementation project(':appA')               // add project dependencies (other modules from this project)
-    }
-```
+      }
+  ```
 
-# Testing with Gradle
+## Testing with Gradle
 
-## JUnit 5 dependencies
+### JUnit 5 dependencies
+
 - from search.maven.org:
 - search org.junit.jupiter (latest version is 5)
   - minimum needed is junit-jupiter-api and junit-jupiter-engine

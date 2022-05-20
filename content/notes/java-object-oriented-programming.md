@@ -1,4 +1,11 @@
-# Java Object-Oriented Programming
++++
+title = "Java Object-Oriented Programming"
+LastModifierDisplayName = "Alain Bouchard"
+LastModifierEmail = "alain.bouchard@appdirect.com"
+disableToc = "false"
++++
+
+## Java Object-Oriented Programming
 
 ## Class blueprint
 
@@ -178,21 +185,21 @@ public class MySubClass extends MySuperClass {
 - an example of an abstract class:
 
   ```java
-  public abstract class myAbstractClass {  
+  public abstract class myAbstractClass {
     // The class requires the `abstract` keyword since it contains an abstract method.
-    
+
     private final String myString;  // final String (aka constant)
-    
+
     protected abstract void myAbstractMethod();  // an abstract method is not implemented!
   }
-  
+
   public class myOtherClass extends MyAbstractClass {
     // variables, constructors... etc.
-    
+
     @Override
     protected abstract void myAbstractMethod() {
       // The abstract method from the abstract class must be implemented by the sub-class.
-    }  
+    }
   }
 
   ```
@@ -205,7 +212,7 @@ public class MySubClass extends MySuperClass {
   ```java
     public interface MyInterface {
       Long myMethod1();  // No method implementation
-      void myMethod2();    
+      void myMethod2();
     }
 
     public class myClassImplementingMyInterface implements MyInterface {
@@ -213,20 +220,20 @@ public class MySubClass extends MySuperClass {
       public Long myMethod1() {
         // the implementation for myMethod1 method
       }
-    
+
       @Override
       public void myMethod2() {
         // the implementation for myMethod2 method
       }
     }
-  
+
   ```
 
-- Consider using abstract classes if any of these statements apply to your situation:  
+- Consider using abstract classes if any of these statements apply to your situation:
   - In the java application, there are some related classes that need to share some lines of code then you can put these lines of code within the abstract class and this abstract class should be extended by all these related classes.
   - You can define the non-static or non-final field(s) in the abstract class so that via a method you can access and modify the state of the Object to which they belong.
   - You can expect that the classes that extend an abstract class have many common methods or fields, or require access modifiers other than public (such as protected and private).
-- Consider using interfaces if any of these statements apply to your situation:  
+- Consider using interfaces if any of these statements apply to your situation:
   - It is a total abstraction, All methods declared within an interface must be implemented by the class(es) that implements this interface.
   - A class can implement more than one interface. It is called multiple inheritances.
   - You want to specify the behaviour of a particular data type, but not concerned about who implements its behaviour.
@@ -239,7 +246,7 @@ public class MySubClass extends MySuperClass {
 
 - a `method reference operator` (or `::`) is used to call a method by referring to it with the help of its class directly
   - like using a lambda expression, example:
-  
+
   ```java
     // Get the stream
     Stream<String> stream
@@ -247,13 +254,13 @@ public class MySubClass extends MySuperClass {
                   "Geeks", "A",
                   "Computer",
                   "Portal");
-  
+
     // Print the stream using lambda method:
     stream.forEach(s -> System.out.println(s));
 
     // Print the stream using double colon operator
     stream.forEach(System.out::println);
-    
+
     // Both lambda and :: will do the same thing.
   ```
 
@@ -261,7 +268,7 @@ public class MySubClass extends MySuperClass {
 
 - it means that zero or more String objects (or a single array of them) may be passed as the argument(s) for that method
 - Reference : [http://java.sun.com/docs/books/tutorial/java/javaOO/arguments.html#varargs]
-- important note: 
+- important note:
   - the argument(s) passed in this way is always an array - even if there's just one. Make sure you treat it that way in the method body
   - the argument that gets the `...` must be the last in the method signature. So, myMethod(int i, String... strings) is okay, but myMethod(String... strings, int i) is not okay
 - example:
@@ -271,7 +278,7 @@ public class MySubClass extends MySuperClass {
     int sum = 0;
     for (int i : a)
       sum += i;
-    
+
     return sum;
   }
   public static void main( String args[] ) {
@@ -279,7 +286,7 @@ public class MySubClass extends MySuperClass {
     System.out.println( "Result is "+ ans );
   }
 ```
-  
+
 ### Predicate
 
 - a `Predicate` in general meaning is a statement about something that is either true or false. In programming, predicates represent single argument functions that return a boolean value
@@ -291,19 +298,20 @@ public class MySubClass extends MySuperClass {
       boolean test(T t);
     }
   ```
+
 - An example with filter() since it does accept a Predicate as parameter:
 
   ```java
-    // With lambda function:    
+    // With lambda function:
     List<Integer> list = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
     List<Integer> collect = list.stream().filter(x -> x > 5).collect(Collectors.toList());
-    System.out.println(collect); // [6, 7, 8, 9, 10]  
+    System.out.println(collect); // [6, 7, 8, 9, 10]
 
     // With predicate:
     Predicate<Integer> noGreaterThan5 =  x -> x > 5;
     List<Integer> list = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
     List<Integer> collect = list.stream().filter(noGreaterThan5).collect(Collectors.toList());
-    System.out.println(collect); // [6, 7, 8, 9, 10]    
+    System.out.println(collect); // [6, 7, 8, 9, 10]
   ```
 
 - More examples with (Java 8 Predicate Examples)[https://mkyong.com/java8/java-8-predicate-examples/]
@@ -317,7 +325,7 @@ public class MySubClass extends MySuperClass {
   - final variables: to create constants
   - final classes: to prevent inheritance
   - final methods: to prevent method overriding
-  
+
 ### Generics
 
 - using `generics` enable types (classes and interfaces) to be parameters when defining classes, interfaces and methods.
@@ -340,7 +348,7 @@ public class MySubClass extends MySuperClass {
   - by using generics, programmers can implement generic algorithms that work on collections of different types, can be customized, and are type safe and easier to read.
 - elimination of casts
   - example:
- 
+
   ```java
     // Without Generics:
     List list = new ArrayList();
@@ -350,9 +358,9 @@ public class MySubClass extends MySuperClass {
     // With Generics:
     List<String> list = new ArrayList<String>();
     list.add("hello");
-    String s = list.get(0); // no cast needed  
+    String s = list.get(0); // no cast needed
   ```
-  
+
 - Generics type parameters:
   - T: Type
   - E: Element
