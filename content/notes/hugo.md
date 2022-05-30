@@ -181,12 +181,12 @@ require github.com/AlainBouchard/engineering-notes v0.0.0-20220518202018-bd023ee
 
 ### Training
 
-- {{< youtube LIFvgrRxdt4 >}} (10 min)
+{{< youtube LIFvgrRxdt4 >}} (10 min)
 
 ### References
 
-- ({{< external-link "https://www.hugofordevelopers.com/articles/master-hugo-modules-handle-content-or-assets-as-modules/" "https://www.hugofordevelopers.com/articles/master-hugo-modules-handle-content-or-assets-as-modules/" >}})
-- [https://www.thenewdynamic.com/note/develop-hugo-modules-locally/]
-- [https://mcshelby.github.io/hugo-theme-relearn/cont/pages/]
-- [https://learn.netlify.app/en/shortcodes/children/]
-- [https://codingreflections.com/hugo-table-of-contents/]
+- {{< external-link "Master Hugo Modules: Handle Content Or Assets As Modules/" "https://www.hugofordevelopers.com/articles/master-hugo-modules-handle-content-or-assets-as-modules/" >}}
+- {{< external-link "Working with Hugo Module Locally" "https://www.thenewdynamic.com/note/develop-hugo-modules-locally/" >}}
+- {{< external-link "Hugo Relearn Theme > Content > Pages organization" "https://mcshelby.github.io/hugo-theme-relearn/cont/pages/" >}}
+- {{< external-link "Learn Theme for Hugo > Shortcodes > Children" "https://learn.netlify.app/en/shortcodes/children/" >}}
+- {{< external-link "How to Add Table Of Contents to a Hugo Blog" "https://codingreflections.com/hugo-table-of-contents/" >}}
