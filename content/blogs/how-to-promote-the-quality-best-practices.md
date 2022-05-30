@@ -6,10 +6,7 @@ LastModifierEmail = "alain.bouchard@appdirect.com"
 disableToc = "false"
 +++
 
-- [How to promote the Quality Best Practices](#how-to-promote-the-quality-best-practices)
-- [Influence or evangelize](#influence-or-evangelize)
-  - [Data-Driven decisions](#data-driven-decisions)
-- [Enforce](#enforce)
+{{< toc >}}
 
 ## How to promote the Quality Best Practices
 

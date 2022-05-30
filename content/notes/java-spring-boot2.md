@@ -5,29 +5,7 @@ LastModifierEmail = "alain.bouchard@appdirect.com"
 disableToc = "false"
 +++
 
-- [Java Spring Boot 2](#java-spring-boot-2)
-- [Terminology](#terminology)
-- [Getting Started](#getting-started)
-  - [Why Spring Boot?](#why-spring-boot)
-    - [Key Aspects](#key-aspects)
-    - [Auto Config](#auto-config)
-  - [Spring Initializr](#spring-initializr)
-  - [Inversion of Control](#inversion-of-control)
-    - [Spring IoC](#spring-ioc)
-  - [Proxies](#proxies)
-- [Data Access in Spring](#data-access-in-spring)
-  - [Spring Data](#spring-data)
-    - [Benefits of Spring Data](#benefits-of-spring-data)
-    - [Key Components](#key-components)
-  - [Embeedded DB with Spring Boot](#embeedded-db-with-spring-boot)
-  - [Repository with Spring Data](#repository-with-spring-data)
-  - [Using remote database](#using-remote-database)
-- [Service Tier](#service-tier)
-  - [Utilizing IoC](#utilizing-ioc)
-  - [Service abstraction](#service-abstraction)
-  - [Spring Service Object](#spring-service-object)
-- [Web pages with Spring](#web-pages-with-spring)
-  - [Controller](#controller)
+{{< toc >}}
 
 ## Java Spring Boot 2
 

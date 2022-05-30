@@ -5,14 +5,7 @@ LastModifierEmail = "alain.bouchard@appdirect.com"
 disableToc = "false"
 +++
 
-- [Project structure for gradle project in Java](#project-structure-for-gradle-project-in-java)
-- [In build.gradle](#in-buildgradle)
-  - [JAVA plugin](#java-plugin)
-  - [APPLICATION plugin](#application-plugin)
-- [Commands](#commands)
-- [Maven Dependencies](#maven-dependencies)
-- [Testing with Gradle](#testing-with-gradle)
-  - [JUnit 5 dependencies](#junit-5-dependencies)
+{{< toc >}}
 
 ## Project structure for gradle project in Java
 

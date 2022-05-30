@@ -5,6 +5,8 @@ LastModifierEmail = "alain.bouchard@appdirect.com"
 disableToc = "false"
 +++
 
+{{< toc >}}
+
 ## Java Object-Oriented Programming
 
 ## Class blueprint
@@ -314,7 +316,7 @@ public class MySubClass extends MySuperClass {
     System.out.println(collect); // [6, 7, 8, 9, 10]
   ```
 
-- More examples with (Java 8 Predicate Examples)[https://mkyong.com/java8/java-8-predicate-examples/]
+- More examples with [Java 8 Predicate Examples](https://mkyong.com/java8/java-8-predicate-examples/)
 
 ### The `final` keyword
 

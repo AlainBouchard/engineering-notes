@@ -5,9 +5,7 @@ LastModifierEmail = "alain.bouchard@appdirect.com"
 disableToc = "false"
 +++
 
-- [Role](#role)
-- [Strategic](#strategic)
-- [Tactics](#tactics)
+{{< toc >}}
 
 ## Role
 
