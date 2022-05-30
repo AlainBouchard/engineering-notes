@@ -3,7 +3,7 @@ title = "My Blogs"
 menuTitle = "Blogs"
 chapter = true
 weight = 5
-pre = "<b>=> </b>"
+# pre = "<b>=> </b>"
 LastModifierDisplayName = "Alain Bouchard"
 LastModifierEmail = "alain.bouchard@appdirect.com"
 disableToc = "false"

@@ -3,7 +3,7 @@ title = "My Notes"
 menuTitle = "My Notes"
 chapter = true
 weight = 10
-pre = "<b>2. </b>"
+# pre = "<b>=> </b>"
 LastModifierDisplayName = "Alain Bouchard"
 LastModifierEmail = "alain.bouchard@appdirect.com"
 disableToc = "false"
