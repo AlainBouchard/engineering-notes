@@ -1,3 +1,3 @@
 # engineering-notes
 
-My engineering notes, pleae use [AlainBouchard.github.io] for `blog` format.
+My engineering notes, pleae use [https://AlainBouchard.github.io] for `blog` format.
