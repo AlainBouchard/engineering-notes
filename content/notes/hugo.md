@@ -181,7 +181,7 @@ require github.com/AlainBouchard/engineering-notes v0.0.0-20220518202018-bd023ee
 
 ### Training
 
-- [https://www.youtube.com/watch?v=LIFvgrRxdt4] (10 min)
+- {{< youtube LIFvgrRxdt4 >}} (10 min)
 
 ### References
 
