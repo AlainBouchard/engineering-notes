@@ -47,11 +47,11 @@ archetypes  config.toml  content  data  layouts  public  static  themes
 
 Example of theme, many can be found on Hugo site.
 
-Hugo Theme Source: [https://themes.gohugo.io/themes/hugo-theme-learn/]
+Hugo Theme Source: [https://themes.gohugo.io/themes/hugo-theme-relearn/]
 
 ```text
 cd themes
-themes> git clone https://github.com/matcornic/hugo-theme-learn.git
+themes> git clone git@github.com:McShelby/hugo-theme-relearn.git
 ```
 
 ### Update the Hugo config.toml file content with team
@@ -82,7 +82,7 @@ theme = "hugo-theme-relearn"
 ### Build
 
 ```bash
-> hugo -t hugo-theme-learn
+> hugo -t hugo-theme-relearn
 ```
 
 ### Verify if the configuration is good
