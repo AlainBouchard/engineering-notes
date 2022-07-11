@@ -1,5 +1,5 @@
 +++
-title = "Role de l'Architecte Qualité"
+title = "Rôle de l'Architecte Qualité (FR)"
 LastModifierDisplayName = "Alain Bouchard"
 LastModifierEmail = "alain.bouchard@appdirect.com"
 disableToc = "false"
