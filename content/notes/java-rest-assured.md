@@ -5,6 +5,8 @@ LastModifierEmail = "alain.bouchard@appdirect.com"
 disableToc = "false"
 +++
 
+{{< toc >}}
+
 ## Java with Rest-Assured
 
 - `Rest-Assured` link: [https://rest-assured.io]
