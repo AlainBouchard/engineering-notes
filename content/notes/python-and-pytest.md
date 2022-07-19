@@ -9,6 +9,32 @@ disableToc = "false"
 
 ## Python and PyTest
 
+Working with multiple python versions may cause issues and confusion. It is recommended to specify the python version to use.
+
+Working with python 3.9:
+
+```bash
+py -3.9 -m <command>
+```
+
+It is recommended to _upgrade_ the `pip` version:
+
+```bash
+py -3.9 -m pip install --upgrade pip
+```
+
+It is recommended to install `tox`, which is a virtual environment (venv) manager for Python.
+
+```bash
+py -3.9 -m pip install tox
+```
+
+To run tests with `tox`, the following example assumes that pytest has been configured by the `tox.ini` commands parameter:
+
+```bash
+py -3.9 -m tox --recursive -- <pytest parameters>
+```
+
 ## PyTest
 
 ### Why PyTest?
@@ -60,6 +86,65 @@ Explore test coverage of a script - requires the `pytest-cov` package to be inst
 pytest --cov scripts
 ```
 
+### pytest.ini configuration file example
+
+```ini
+[pytest]
+# Configure the logging within PyTest (the configuration won't work if configured in test files)
+log_cli = 1
+log_cli_level = WARNING
+log_cli_format = %(asctime)s [%(levelname)8s] %(message)s (%(filename)s:%(lineno)s)
+log_cli_date_format=%Y-%m-%d %H:%M:%S
+
+# Filter Warnings
+filterwarnings =
+    ignore::FutureWarning
+
+# Uses classes with prefix Test as test files
+python_files = Test*.py
+```
+
+## Tox
+
+[Tox] aims to automate and standardize testing in Python. It is part of a larger vision of easing the packaging, testing and release process of Python software.
+
+### tox.ini
+
+Tox may be used along with a `tox.ini` configuration file.
+
+```ini
+[framework]
+files = tests
+coverages = --cov=src
+
+[tox]
+envlist = py3.9
+skip_missing_interpreters = false
+skipsdist = true
+toxworkdir = tmp
+
+[flake8]
+max-line-length = 159
+# E501: Ignore max line length
+# ignore = E501
+
+[pytest]
+norecursedirs = .cache tmp
+
+# pytest-spec configuration
+spec_header_format = {module_path}:
+spec_test_format = {result} {name}
+
+[testenv]
+deps = -rrequirements.txt
+
+# Only forward the environment variables with the following prefix.
+passenv = PYTHON_SANDBOX_*
+commands =
+    flake8 src tests --exclude=__init__.py
+    pytest -p no:cacheprovider --spec --durations=5 --cov-config .coveragerc --cov-report term-missing {posargs} {[framework]coverages} {[framework]files}
+```
+
 ### Test file skeleton
 
 ```py
@@ -81,13 +166,91 @@ def test_with_exception_context_manager():
     assert str(ex.value) == "this is an exception!"
 ```
 
+### Test class skeleton
+
+The Test Class will work like the fixtures from the test file.
+
+```py
+# conftest.py
+import pytest
+import logging
+
+
+@pytest.fixture(scope="session", autouse=True)
+def set_logging() -> None:
+    logging.info("set_logging on conftest.py")
+
+
+# TestExample.py
+import logging
+
+
+class TestExample:
+    @classmethod
+    def setup_class(cls):
+        logging.info("starting class: {} execution".format(cls.__name__))
+
+    @classmethod
+    def teardown_class(cls):
+        logging.info("starting class: {} execution".format(cls.__name__))
+
+    def setup_method(self, method):
+        logging.info("starting execution of tc: {}".format(method.__name__))
+
+    def teardown_method(self, method):
+        logging.info("starting execution of tc: {}".format(method.__name__))
+
+    def test_tc1(self):
+        logging.info("running tc1")
+        assert True
+
+    def test_tc2(self):
+        logging.info("running tc2")
+        assert True
+```
+
+The output of this example Test Class will be:
+
+```log
+============================= test session starts =============================
+collecting ... collected 2 items
+
+TestExample.py::TestExample::test_tc1
+------------------------------- live log setup --------------------------------
+2022-07-18 12:57:45 [    INFO] set_logging on conftest.py (conftest.py:7)
+2022-07-18 12:57:45 [    INFO] starting class: TestExample execution (TestExample.py:7)
+2022-07-18 12:57:45 [    INFO] starting execution of tc: test_tc1 (TestExample.py:14)
+-------------------------------- live log call --------------------------------
+2022-07-18 12:57:45 [    INFO] running tc1 (TestExample.py:20)
+PASSED                                                                   [ 50%]
+------------------------------ live log teardown ------------------------------
+2022-07-18 12:57:45 [    INFO] starting execution of tc: test_tc1 (TestExample.py:17)
+
+TestExample.py::TestExample::test_tc2
+------------------------------- live log setup --------------------------------
+2022-07-18 12:57:45 [    INFO] starting execution of tc: test_tc2 (TestExample.py:14)
+-------------------------------- live log call --------------------------------
+2022-07-18 12:57:45 [    INFO] running tc2 (TestExample.py:24)
+PASSED                                                                   [100%]
+------------------------------ live log teardown ------------------------------
+2022-07-18 12:57:45 [    INFO] starting execution of tc: test_tc2 (TestExample.py:17)
+2022-07-18 12:57:45 [    INFO] starting class: TestExample execution (TestExample.py:11)
+
+============================== 2 passed in 0.02s ==============================
+
+Process finished with exit code 0
+```
+
+A session configuration can be done in the `conftest.py` as shown in the example.  It will be run once only in the session setup.
+
 ### Fixtures
 
-A [test fixture] is a concept used in both electronics and software. It’s a piece of software or device that sets up a system to satisfy certain preconditions of the process. Its biggest advantage is that it provides consistent results so that the test results can be repeatable. Examples of fixtures could be loading test set to the database, reading a configuration file, setting up environment variables, etc.
+A [test fixture] is a concept used in both electronics and software. It’s a piece of software or device that sets up a system to satisfy certain preconditions of the process. Its biggest advantage is that it provides consistent results so that the test results can be repeatable. Examples of fixtures could be loading a test set to the database, reading a configuration file, setting up environment variables, etc.
 
 A pytest fixture has a specific scope.  By default, the scope is a function. Pytest fixtures have five different scopes: function, class, module, package, and session. The scope basically controls how often each fixture will be executed.
 
 Order of priority:
+
 1. session (higher priority)
 1. package
 1. module
@@ -96,7 +259,7 @@ Order of priority:
 
 #### Function
 
-THe default scope is function: `scope="function" and therefore may be omited.
+THe default scope is function: `scope="function" and therefore may be omitted.
 
 ```py
 import pytest
@@ -139,7 +302,7 @@ class TestCalculatorClass:
         assert sum_of_square(self.num1, self.num2) == 500
 ```
 
-Special usage of the keywork `yield` in a fixture: the code before the `yield` keyword will be executed before the test functions of the Test Class while the code after the `yield` keyword will be executed after the test functions of the Test Class.
+Special usage of the keyword `yield` in a fixture: the code before the `yield` keyword will be executed before the test functions of the Test Class while the code after the `yield` keyword will be executed after the test functions of the Test Class.
 
 ```py
 @pytest.fixture(scope="class")
@@ -161,7 +324,7 @@ class TestDBClass:
 
 #### Module and package
 
-The `scope="module"` run the fixture per module while the `scope="package"` run by package.  The scope _module_ is usualy used more often than the scope `package`. The difference between scope `function` and scope `module` is that the scope module will only be run once, even if used in many functions in the module.
+The `scope="module"` runs the fixture per module while the `scope="package"` runs by package.  The scope _module_ is usually used more often than the scope `package`. The difference between scope `function` and scope `module` is that the scope module will only be run once, even if used in many functions in the module.
 
 ```py
 @pytest.fixture(scope="module")
@@ -213,10 +376,11 @@ def test4(read_config):
 ```
 
 Using `conftest.py` for common functions:
-- stores common utlity test fixtures and extension code often referred to as _hooks_
+
+- stores common utility test fixtures and extension code often referred to as _hooks_
 - pytest collects the fixtures in this file so they are globally accessible within the testing directory
 - it must be placed under your `/tests` directory
-- good practice to cross-reference ths file when reading a testing suite
+- good practice to cross-reference this file when reading a testing suite
 
 #### conftest.py modularization
 
@@ -244,14 +408,14 @@ The fixture parameter `autouse=True` will make the fixture used automatically ev
 @pytest.fixture(autouse=True)
 def function_autouse():
     logging.info("scope function with autouse")
-    
+
 def test_autouse():
     assert True
 ```
 
 #### Parametrize
 
-The [pytest.mark.parametrize] fixture allows to run the same test, multiple time, by modifying the input parameters.
+The [pytest.mark.parametrize] fixture allows the user to run the same test, multiple times, by modifying the input parameters.
 
 ```py
 @pytest.mark.parametrize("num, output",[(1,11),(2,22),(3,35),(4,44)])
@@ -285,11 +449,11 @@ class ClassName():
         raise ValueError("this is an exception!")
 ```
 
-It is possible to user decorators for [getters and setters].
+It is possible to use decorators for [getters and setters].
 
 ### Commonly used functions and examples
 
-#### Verify variable type:
+#### Verify variable type
 
 ```py
 if not isinstance(variable, str):
@@ -334,3 +498,4 @@ finally:
 [fixture.mark.parametrize]: https://www.tutorialspoint.com/pytest/pytest_parameterizing_tests.htm
 [PyFlake and Flake8]: https://medium.com/python-pandemonium/what-is-flake8-and-why-we-should-use-it-b89bd78073f2
 [test fixture]: https://betterprogramming.pub/understand-5-scopes-of-pytest-fixtures-1b607b5c19ed
+[tox]: https://tox.wiki/en/latest/
