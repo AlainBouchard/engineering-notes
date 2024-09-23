@@ -1,7 +1,7 @@
 +++
 title = "Quality Architect Role"
 LastModifierDisplayName = "Alain Bouchard"
-LastModifierEmail = "alain.bouchard@appdirect.com"
+LastModifierEmail = "abouchard@live.ca"
 disableToc = "false"
 +++
 

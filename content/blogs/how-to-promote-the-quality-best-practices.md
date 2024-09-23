@@ -2,7 +2,7 @@
 title = "How to promote the Quality Best Practices"
 chapter = false
 LastModifierDisplayName = "Alain Bouchard"
-LastModifierEmail = "alain.bouchard@appdirect.com"
+LastModifierEmail = "abouchard@live.ca"
 disableToc = "false"
 +++
 

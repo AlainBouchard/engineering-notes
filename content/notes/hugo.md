@@ -1,7 +1,7 @@
 +++
 title = "Hugo"
 LastModifierDisplayName = "Alain Bouchard"
-LastModifierEmail = "alain.bouchard@appdirect.com"
+LastModifierEmail = "abouchard@live.ca"
 disableToc = "false"
 +++
 
