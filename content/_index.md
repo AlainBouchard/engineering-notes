@@ -5,7 +5,7 @@ chapter = false
 weight = 10
 pre = "<b>=> </b>"
 LastModifierDisplayName = "Alain Bouchard"
-LastModifierEmail = "alain.bouchard@appdirect.com"
+LastModifierEmail = "abouchard@live.ca"
 disableToc = "false"
 +++
 

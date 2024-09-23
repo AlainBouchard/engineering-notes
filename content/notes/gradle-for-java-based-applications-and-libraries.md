@@ -1,7 +1,7 @@
 +++
 title = "Gradle for Java-Based applications and libraries"
 LastModifierDisplayName = "Alain Bouchard"
-LastModifierEmail = "alain.bouchard@appdirect.com"
+LastModifierEmail = "abouchard@live.ca"
 disableToc = "false"
 +++
 
