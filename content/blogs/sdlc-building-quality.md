@@ -11,7 +11,7 @@ We often discuss concepts like **SDLC (Software Development Life Cycle)** or a *
 
 While many people understand what the SDLC is, they may not fully grasp the **goals, activities, or expected outcomes** of each phase. Each phase, from requirements to maintenance, plays a unique role in shaping the final product, and testing must align with these stages to maximize efficiency and quality.
 
-To make this integration clear, we need to focus on **test types**, **where to run them**, and **who is responsible**.  Well cover that later in this article.
+To make this integration clear, we need to focus on **test types**, **where** to run them, and **who** is responsible.  It will be covered later in this article.
 
 By aligning the test strategy with the SDLC, everyone - from developers to QA, including DevOps, Security, IT and Compliance people — knows their role in ensuring quality, and testing becomes an integral part of the development process, not an afterthought.
 
@@ -20,8 +20,6 @@ By aligning the test strategy with the SDLC, everyone - from developers to QA, i
 The **Test Pyramid** has become a buzzword in testing conversations, often paired with trendy concepts like **shift left** and **shift right**. While these ideas are valuable, let’s take a step back and explore testing through the lens of a **typical deployment flow**, grounding the discussion in practical terms.
 
 In this section, we’ll dive into an exhaustive list of test types that ensure a robust testing strategy. These will include:
-
-Here’s the formatted list, each on a single line:
 
 - **Functional Tests**: Focus on verifying the application's functionality, including unit, integration, and end-to-end tests.  
 - **Non-Functional Tests**: Cover aspects like performance, scalability, usability, and accessibility.  
@@ -34,10 +32,10 @@ Here’s the formatted list, each on a single line:
 - **Data Integrity Tests**: Verify the accuracy, consistency, and reliability of data across systems.  
 - **Localization and Internationalization Tests**: Ensure the application functions correctly in different regions and languages.  
 
-By aligning these tests with deployment stages, we aim to create a clear, actionable roadmap for delivering high-quality software.
+By aligning these tests with SDLC, we aim to create a clear, actionable roadmap for delivering high-quality software.
 ### Test Flow Diagram
 
-The diagram below represents a **per-environment test flow**, outlining the **environments, test types**, and their **owners or responsibilities**. While this flow is designed around typical industry practices, it’s important to note that every organization may have different environments, naming conventions, or even responsibilities assigned to teams.
+The diagram below represents a **per-environment test flow**, outlining the **environments, test types**, and their **owners**. While this flow is designed around typical industry practices, it’s important to note that every organization may have different environments, naming conventions, or even responsibilities assigned to teams.
 
 The **responsibilities** listed in this flow align with standard industry roles, but these may vary depending on a company’s structure or specific needs. Additionally, **adding quality and test coverage is an iterative process**, meaning that no single test strategy will cover every possible test type from the start. Instead, test strategies evolve over time to adapt to new challenges and ensure comprehensive quality.
 
@@ -257,11 +255,12 @@ flowchart TD
 
 ## Conclusion
 
-This article is focusing on how to align testing strategies with the **Software Development Life Cycle (SDLC)** to ensure quality at every stage of development. We looked at how different test types fit into the SDLC and how responsibilities are distributed among teams.
+This article is focusing on how to align **Testing Strategies** with the **Software Development Life Cycle (SDLC)** to ensure quality at every stage of development. We looked at how different test types fit into the SDLC and how responsibilities are distributed among teams.
 
 Key points covered:
 - The SDLC provides a clear roadmap with goals, activities, and outcomes for each phase.  
 - Tests can be grouped into categories like functional, non-functional, security, and compliance to make sure all areas are covered.  
-- Responsibilities and environments may differ across organizations, so it’s important to adapt industry standards to your specific needs.  
+- Responsibilities and environments may differ across organizations, so it’s important to adapt industry standards to your specific needs.
+- Ensuring quality is essential at every phase of the SDLC.
 
 Testing is a process that evolves over time, and this article insights highlight the value of collaboration and continuous improvement to build high-quality software.
