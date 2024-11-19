@@ -7,8 +7,6 @@ disableToc = "false"
 
 {{< toc >}}
 
-# JavaScript Best Practices and Principles
-
 It is easy to fall in a trap when coding in JavaScript.  Thus, it is highly suggested to add types and use Typescript.  Nevertheless, there are the Best Practices and Principles to follow with Javascript.  Many can be used with other languages like Typescript.
 
 ## Best Practices
