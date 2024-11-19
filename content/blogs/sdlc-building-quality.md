@@ -7,8 +7,6 @@ disableToc = "false"
 
 {{< toc >}}
 
-# Building Quality: Aligning Test Strategies with the SDLC
-
 We often discuss concepts like **SDLC (Software Development Life Cycle)** or a **Test Strategy**, but rarely do we focus on how to seamlessly integrate the test strategy into the SDLC. This is crucial because a test strategy isn’t just a standalone document — it’s a roadmap that ensures quality throughout each phase of development.
 
 While many people understand what the SDLC is, they may not fully grasp the **goals, activities, or expected outcomes** of each phase. Each phase, from requirements to maintenance, plays a unique role in shaping the final product, and testing must align with these stages to maximize efficiency and quality.

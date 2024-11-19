@@ -1,13 +1,11 @@
 +++
-title = "Cypress.io"
+title = "Cypress with TypeScript"
 LastModifierDisplayName = "Alain Bouchard"
 LastModifierEmail = "abouchard@live.ca"
 disableToc = "false"
 +++
 
 {{< toc >}}
-
-# Cypress with TypeScript
 
 ## Install Cypress with npm
 
