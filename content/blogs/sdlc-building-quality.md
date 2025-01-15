@@ -184,7 +184,7 @@ The Software Development Life Cycle (SDLC) is a structured process guiding softw
 | **Deployment**           | Release the software for use.          | Deploy software to production, monitor, and run acceptance tests.                              | Live, functioning product accessible to users.  |
 | **Maintenance & Support**| Keep the software functional post-release. | Monitor, fix bugs, apply patches, and implement enhancements based on feedback.                | Continuous support and updates until retirement.|
 
-This table provides a concise overview of each phase, including its purpose, activities, and outcomes. Let me know if you’d like further refinements!
+This table provides a concise overview of each phase, including its purpose, activities, and outcomes.
 
 ### The Test Strategy within the SDLC
 
