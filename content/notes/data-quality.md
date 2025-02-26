@@ -1078,8 +1078,6 @@ graph TD
     E --> A
 ```
 
-/
-
 ### Step 1: Defining Data Quality Improvement Goals
 
 Defining data quality improvement goals is the first and most crucial step in any data quality initiative. This step involves setting clear, measurable objectives that guide the entire process, ensuring alignment with business needs and regulatory requirements.
