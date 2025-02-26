@@ -6,8 +6,6 @@ LastModifierEmail = "abouchard@live.ca"
 disableToc = "false"
 +++
 
-# Design for Testability
-
 {{< toc >}}
 
 ## Background
