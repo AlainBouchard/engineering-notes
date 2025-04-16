@@ -1752,37 +1752,37 @@ Data governance helps an organization take control of its data by setting up cle
 
 Data governance gives an organization structure and control over how data is handled. Without it, data can quickly become messy, unreliable, or even risky to use. Here are the main reasons why data governance is important:
 
-#### 1. To Improve Data Quality
+#### To Improve Data Quality
 
 - Makes sure data is accurate, complete, and consistent across the company.
 - Reduces errors, duplicates, and outdated information.
 
-#### 2. To Protect Sensitive Data
+#### To Protect Sensitive Data
 
 - Helps control who can access what data.
 - Prevents unauthorized access, data leaks, and misuse.
 
-#### 3. To Support Better Decision-Making
+#### To Support Better Decision-Making
 
 - When data is clean and trusted, people can make better business decisions.
 - Builds confidence in reports and analytics.
 
-#### 4. To Stay Compliant with Laws and Regulations
+#### To Stay Compliant with Laws and Regulations
 
 - Helps the organization follow privacy and security rules like GDPR or HIPAA.
 - Makes it easier to prove compliance during audits.
 
-#### 5. To Clarify Roles and Responsibilities
+#### To Clarify Roles and Responsibilities
 
 - Defines who owns, manages, and makes decisions about data.
 - Reduces confusion and creates accountability.
 
-#### 6. To Increase Operational Efficiency
+#### To Increase Operational Efficiency
 
 - Reduces time spent searching for, fixing, or duplicating data.
 - Helps teams work more smoothly with shared data rules and processes.
 
-#### 7. To Enable Trust and Collaboration
+#### To Enable Trust and Collaboration
 
 - When data is reliable and well-managed, teams are more likely to use and share it.
 - Builds a culture of transparency and shared responsibility.
@@ -1889,9 +1889,198 @@ To measure the success of data governance, the following core data quality dimen
 
 Seiner’s approach to data governance policy is built around the idea of recognizing and organizing what is already happening in the business. The policy defines how to guide and measure data governance, encourages shared responsibility, and ensures data is managed safely and effectively without disrupting day-to-day operations.
 
+### Data Governance Roles & Responsibilities
+
+#### What
+
+A structured model of responsibilities that supports data governance across all parts of an organization. Based on Robert S. Seiner’s Non-Invasive Data Governance™ (NIDG) framework.
+
+![Data Governance Roles and Responsibilities]
+
+#### Why
+
+To ensure accountability for data exists at every level. This approach minimizes disruption by assigning roles within existing teams and structures.
+
+#### Who
+
+Roles are distributed across five organizational levels:
+
+- **Executive**
+
+  - Sets strategic direction and governance priorities.
+  - Approves policies and data initiatives.
+  - Provides budget and resources.
+  - Champions data governance across the organization.
+
+- **Strategic**
+
+  - Defines data governance policies and frameworks.
+  - Assigns data ownership and stewardship.
+  - Oversees compliance and governance performance.
+  - Aligns governance practices with business objectives.
+
+- **Tactical**
+
+  - Coordinates data governance activities between departments.
+  - Supports adoption of policies and standards.
+  - Ensures data quality practices are followed.
+  - Facilitates communication and issue resolution.
+
+- **Operational**
+
+  - Maintains data accuracy and completeness.
+  - Follows policies in day-to-day data use.
+  - Reports data issues or inconsistencies.
+  - Helps enforce data access and classification rules.
+
+- **Support**
+  - Delivers systems and technical tools.
+  - Manages data infrastructure and platforms.
+  - Ensures integration of governance rules in technology.
+  - Provides analytics, automation, and metadata management.
+
+#### When
+
+These roles operate continuously, aligned with the data lifecycle and evolving business needs.
+
+#### How
+
+By embedding governance activities into job functions. No new roles are created — responsibilities are formalized within existing positions.
+
+#### In a Nutshell
+
+Seiner’s model places governance responsibility on existing staff, formalizing what people already do. This encourages shared accountability and supports sustainable data governance.
+
+**Source**: [Data Governance Roles and Responsibilities – TDAN.com](https://tdan.com/data-governance-roles-and-responsibilities/24774)
+**PDF**: [KIK Consulting Framework PDF](https://tdan.com/wp-content/uploads/2019/10/KIK-Consulting-Non-Invasive-Data-Governance-Framework-20190516.pdf)
+
+### Starting Data Governance in a Fintech
+
+In a growing fintech company, especially one operating in the mortgage space, managing data properly is essential for compliance, efficiency, and trust. If no formal data governance is in place, it’s important to begin with activities that introduce structure without disrupting the business.
+
+This document outlines the top 10 foundational activities to launch data governance, based on industry best practices and the Non-Invasive Data Governance (NIDG) approach.
+
+#### Top 10 Foundational Data Governance Activities
+
+| #   | Activity                                                        | Main Actors Involved                                      |
+| --- | --------------------------------------------------------------- | --------------------------------------------------------- |
+| 1   | Get executive sponsorship and form a governance council         | CDO / CTO / Head of Compliance / Executive sponsor        |
+| 2   | Define a Data Governance Policy and Principles                  | Data Governance SME, Legal, Compliance, Risk              |
+| 3   | Identify and assign data roles (owners, stewards, consumers)    | HR, Department Heads, Data Governance Lead                |
+| 4   | Prioritize key business domains (e.g., customer, loan, product) | Business SMEs, Product Owners, BI Leads                   |
+| 5   | Create a data catalog or inventory of core data assets          | Data Stewards, Data Engineers, Analysts                   |
+| 6   | Develop data quality rules and metrics                          | Data Analysts, Data Stewards, Product, Legal              |
+| 7   | Establish data access rules and classifications                 | InfoSec, Legal, Data Owner                                |
+| 8   | Integrate data governance with current business processes       | All business units, Ops Managers, Tech Leads              |
+| 9   | Educate & onboard teams about roles, responsibilities & policy  | Change Management, Training Team, Data Governance Council |
+| 10  | Set up monitoring and improvement processes                     | Data Quality Team, Compliance, BI, Platform Owners        |
+
+#### In a Nutshell
+
+To succeed in data governance, a fintech company should treat data as a strategic asset from day one. Start small by focusing on critical domains (like customer onboarding or loan application), assign clear roles, and embed governance into the organization’s existing habits and operations. This allows the company to build trust, meet compliance needs, and improve decision-making without unnecessary friction.
+
+This roadmap can serve as a starting point for creating a sustainable, scalable, and business-aligned data governance program.
+
 ## Best Practices
+
+### Top 5 Data Quality Best Practices
+
+#### What?
+
+These are the five most important best practices to implement in order to build strong, sustainable data quality initiatives in any organization.
+
+#### Why?
+
+Without these practices, data quality efforts often stay siloed or misunderstood. These practices drive alignment, build internal knowledge, promote ownership, and enable progress tracking.
+
+#### Who & How?
+
+| #   | Best Practice                             | Who’s Involved                               | How it Helps                                                                       |
+| --- | ----------------------------------------- | -------------------------------------------- | ---------------------------------------------------------------------------------- |
+| 1   | Get Executive Sponsorship                 | C-level leaders, sponsors                    | Drives company-wide alignment and ensures data quality is a shared responsibility. |
+| 2   | Invest in Data Quality Training           | All departments, learning & dev. teams       | Builds awareness, capability, and support across the organization.                 |
+| 3   | Appoint Data Stewards in Every Department | Department heads, DQ leads, data teams       | Ensures local ownership and better collaboration with central DQ efforts.          |
+| 4   | Establish and Track Data Quality Metrics  | DQ analysts, BI leads, executive sponsors    | Measures progress, motivates improvement, and supports investment cases.           |
+| 5   | Establish a Data Governance Program       | Data governance leads, compliance, all teams | Creates structure, policies, and ongoing oversight to support long-term quality.   |
+
+#### Examples
+
+- A senior leader publicly endorses a “trusted data” initiative across all departments.
+- Each department names a steward who ensures that product data is accurate and complete.
+- Data quality dashboards show duplicate rate reduction month-over-month.
+- Training sessions introduce teams to data quality rules, roles, and processes.
+
+#### In a Nutshell
+
+Data quality success depends on more than just tools. These five practices help embed data quality into the culture of the company. With leadership, education, clear roles, measurement, and governance, quality becomes everyone’s responsibility — and a business advantage.
+
+### Measuring Data Quality Success: What Really Matters
+
+#### What?
+
+This summary explores how to measure the effectiveness of data quality efforts, emphasizing a practical, business-driven approach over technical perfection.
+
+#### Why?
+
+Many organizations fail to demonstrate ROI from data quality investments because they track only technical metrics, not business impact. True success comes from focusing on outcomes that matter to decision-makers.
+
+#### Key Practices
+
+| #   | Practice                    | Description                                                                                     |
+| --- | --------------------------- | ----------------------------------------------------------------------------------------------- |
+| 1   | Focus on Business Impact    | Go beyond missing values—measure decision latency, regulatory costs, and trust in analytics.    |
+| 2   | Use Balanced Scorecards     | Combine technical metrics (e.g., error rates) with business outcomes (e.g., improved insights). |
+| 3   | Design for Adaptability     | Build flexible frameworks that evolve with business and technology changes.                     |
+| 4   | Embrace Continuous Learning | Evaluate what's working, adjust practices, and stay resilient in a changing environment.        |
+| 5   | Be Pragmatic, Not Perfect   | Strive for "good enough to decide better" rather than flawless data.                            |
+
+#### Examples
+
+- A retail bank tracks system uptime and error rates alongside executive trust in dashboard accuracy.
+- Organizations reduce regulatory fines by prioritizing data critical to compliance.
+- Modular data validation systems allow easy integration of new sources and tools.
+
+#### In a Nutshell
+
+Data quality success isn’t about reaching perfection—it’s about making smarter, faster decisions than competitors. Measure what actually helps your business perform better. Focus on outcomes, stay adaptive, and build trust where it counts.
+
+_Inspired by insights from George Smarts, March 2025_
+
+### Beyond Clean Data: Building Future-Ready Data Quality Systems
+
+#### What?
+
+This summary outlines the evolution of data quality from a technical discipline to a strategic capability that must be adaptive, intelligence-driven, and embedded across systems, teams, and cultures.
+
+#### Why?
+
+Traditional data quality practices can’t keep up with the scale, complexity, and changing demands of modern organizations. Future-ready systems must be resilient, continuously learning, and focused on business value rather than perfection.
+
+#### Key Principles and Themes
+
+| #   | Theme                            | Summary                                                                                         |
+| --- | -------------------------------- | ----------------------------------------------------------------------------------------------- |
+| 1   | Evolving Complexity              | Modern data spans cloud, real-time, legacy, and unstructured sources—outgrowing legacy methods. |
+| 2   | Strategic Business Impact        | Data quality affects decision-making, operations, compliance, and reputation.                   |
+| 3   | AI-Driven Quality                | Machine learning enables predictive data quality and anomaly detection across vast datasets.    |
+| 4   | Real-Time Monitoring             | Organizations must shift from batch cleansing to continuous quality assessment.                 |
+| 5   | Human-Centered Design            | Quality must be aligned with real business needs and user workflows.                            |
+| 6   | Embedded Governance              | Policies, responsibilities, and standards must underpin all data quality efforts.               |
+| 7   | Integration Across Ecosystems    | Data quality should be embedded into catalogs, pipelines, and data development practices.       |
+| 8   | Culture of Shared Responsibility | Data quality is not a separate function—it’s everyone’s job, supported by leadership.           |
+| 9   | Economics of Quality             | Measure ROI based on business impacts like accuracy, speed, and regulatory cost avoidance.      |
+| 10  | Built-In Adaptability            | Frameworks must evolve with data sources, technologies, and regulations.                        |
+
+#### In a Nutshell
+
+Future-ready data quality isn’t about perfect data—it’s about sustainable practices that adapt, learn, and focus on enabling better business decisions. Success comes from aligning people, processes, and technology around shared goals and measurable outcomes.
+
+_Inspired by insights from George Smarts, March 2025_
 
 <!-- links -->
 
 [GetRightData]: https://www.getrightdata.com/resources/why-quality-matters-the-10-biggest-data-quality-disasters
 [CNN_NASA]: http://www.cnn.com/TECH/space/9909/30/mars.metric.02/
+[KIK Consulting NIDG Roles Framework PDF]: https://tdan.com/wp-content/uploads/2019/10/KIK-Consulting-Non-Invasive-Data-Governance-Framework-20190516.pdf
+[The Data Administration Letter - Data Governance Roles and Responsibilities]: https://tdan.com/data-governance-roles-and-responsibilities/24774
+[Data Governance Roles and Responsibilities]: https://tdan.com/wp-content/uploads/2019/04/Picture11.png
