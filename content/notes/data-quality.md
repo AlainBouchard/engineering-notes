@@ -703,7 +703,7 @@ Data cleansing is a crucial step in ensuring that data is accurate, consistent, 
 
 Data enhancement adds significant value by enriching datasets, enabling better decision-making, improving customer insights, and supporting business growth. It’s a key practice for organizations that want to maximize the potential of their data.
 
-### \*Data Inspection and Monitoring
+### Data Inspection and Monitoring
 
 #### What?
 
@@ -1801,7 +1801,7 @@ Certainly! Below is a document summarizing major data governance failures, inclu
 | **Case**                                | **Fine**                            | **Short Description**                                                                                                    |
 | --------------------------------------- | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
 | **Securitas (2021)**                    | Potential fines under various laws  | Misconfigured AWS S3 bucket exposed over 3TB of sensitive data, including airport employee records in Colombia and Peru. |
-| **SingHealth (2018)**                   | S$1 million (approx. $740,000 USD)  | Cyberattack compromised personal data of 1.5 million patients, including Singapore's Prime Minister.                     |
+| **SingHealth (2018)**                   | $1 million (approx. $740,000 USD)   | Cyberattack compromised personal data of 1.5 million patients, including Singapore's Prime Minister.                     |
 | **Equifax (2017)**                      | Up to $700 million                  | Failure to patch a known vulnerability led to the exposure of personal data of 147 million individuals.                  |
 | **British Airways (2018)**              | £20 million (approx. $27 million)   | Cyberattack compromised personal and financial details of over 400,000 customers due to inadequate security measures.    |
 | **Facebook–Cambridge Analytica (2018)** | $5 billion (FTC), £500,000 (UK ICO) | Unauthorized harvesting of data from up to 87 million users for political advertising purposes.                          |
