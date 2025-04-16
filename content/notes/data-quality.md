@@ -1791,47 +1791,47 @@ Data governance gives an organization structure and control over how data is han
 
 Data governance helps organizations take control of their data. It improves quality, ensures security, supports compliance, and makes it easier to work together. With good governance, data becomes a trusted, valuable asset instead of a source of confusion or risk.
 
-Certainly! Below is a document summarizing major data governance failures, including a comparative table and detailed descriptions of each case.
+Certainly! Below is a document summarizing major data governance failures, including a comparative table and detailed descriptions of each case.
 
 ### Major Data Governance Failures: Key Cases and Consequences
 
 #### Summary Table
 
 | **Case**                                | **Fine**                            | **Short Description**                                                                                                    |
-| --------------------------------------- | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | --- |
+| --------------------------------------- | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
 | **Securitas (2021)**                    | Potential fines under various laws  | Misconfigured AWS S3 bucket exposed over 3TB of sensitive data, including airport employee records in Colombia and Peru. |
 | **SingHealth (2018)**                   | S$1 million (approx. $740,000 USD)  | Cyberattack compromised personal data of 1.5 million patients, including Singapore's Prime Minister.                     |
 | **Equifax (2017)**                      | Up to $700 million                  | Failure to patch a known vulnerability led to the exposure of personal data of 147 million individuals.                  |
 | **British Airways (2018)**              | £20 million (approx. $27 million)   | Cyberattack compromised personal and financial details of over 400,000 customers due to inadequate security measures.    |
-| **Facebook–Cambridge Analytica (2018)** | $5 billion (FTC), £500,000 (UK ICO) | Unauthorized harvesting of data from up to 87 million users for political advertising purposes.                          |    |
+| **Facebook–Cambridge Analytica (2018)** | $5 billion (FTC), £500,000 (UK ICO) | Unauthorized harvesting of data from up to 87 million users for political advertising purposes.                          |
 
 #### Detailed Case Descriptions
 
 ##### 1. Securitas Data Exposure (2021)
 
-In 2021, Securitas experienced a significant data breach due to a misconfigured Amazon S3 bucket, which left over 3TB of sensitive data publicly accessible. The exposed data included personal information of airport employees in Colombia and Peru, such as ID cards and photographs with embedded metadata. This breach highlighted severe lapses in data governance, particularly in securing cloud storage configurations. Potential fines under various data protection laws were anticipated, emphasizing the financial risks associated with poor data management practices.
+In 2021, Securitas experienced a significant data breach due to a misconfigured Amazon S3 bucket, which left over 3TB of sensitive data publicly accessible. The exposed data included personal information of airport employees in Colombia and Peru, such as ID cards and photographs with embedded metadata. This breach highlighted severe lapses in data governance, particularly in securing cloud storage configurations. Potential fines under various data protection laws were anticipated, emphasizing the financial risks associated with poor data management practices.
 
 ##### 2. SingHealth Data Breach (2018)
 
-Singapore's largest healthcare group, SingHealth, suffered a cyberattack in 2018 that compromised the personal data of 1.5 million patients, including Prime Minister Lee Hsien Loong. The breach was attributed to inadequate cybersecurity measures and delayed incident response. Consequently, the Personal Data Protection Commission (PDPC) imposed fines totaling S$1 million, with S$750,000 levied on Integrated Health Information Systems (IHiS) and S$250,000 on SingHealth. This incident underscored the importance of robust data governance in the healthcare sector.
+Singapore's largest healthcare group, SingHealth, suffered a cyberattack in 2018 that compromised the personal data of 1.5 million patients, including Prime Minister Lee Hsien Loong. The breach was attributed to inadequate cybersecurity measures and delayed incident response. Consequently, the Personal Data Protection Commission (PDPC) imposed fines totaling S$1 million, with S$750,000 levied on Integrated Health Information Systems (IHiS) and S$250,000 on SingHealth. This incident underscored the importance of robust data governance in the healthcare sector.
 
 ##### 3. Equifax Data Breach (2017)
 
-In 2017, Equifax, one of the major credit reporting agencies, experienced a data breach that exposed the personal information of approximately 147 million individuals. The breach resulted from Equifax's failure to patch a known vulnerability in a timely manner. The company faced a settlement of up to $700 million with the Federal Trade Commission (FTC), the Consumer Financial Protection Bureau (CFPB), and 50 U.S. states and territories. This case highlights the critical need for proactive data governance and timely security updates.
+In 2017, Equifax, one of the major credit reporting agencies, experienced a data breach that exposed the personal information of approximately 147 million individuals. The breach resulted from Equifax's failure to patch a known vulnerability in a timely manner. The company faced a settlement of up to $700 million with the Federal Trade Commission (FTC), the Consumer Financial Protection Bureau (CFPB), and 50 U.S. states and territories. This case highlights the critical need for proactive data governance and timely security updates.
 
 ##### 4. British Airways Data Breach (2018)
 
-British Airways faced a cyberattack in 2018 that compromised the personal and financial details of over 400,000 customers. The breach was due to poor security measures, including inadequate protection of user data. The Information Commissioner's Office (ICO) initially issued a fine of £183 million, later reduced to £20 million, marking it as one of the largest penalties under GDPR at the time. This incident emphasizes the financial and reputational repercussions of insufficient data governance.
+British Airways faced a cyberattack in 2018 that compromised the personal and financial details of over 400,000 customers. The breach was due to poor security measures, including inadequate protection of user data. The Information Commissioner's Office (ICO) initially issued a fine of £183 million, later reduced to £20 million, marking it as one of the largest penalties under GDPR at the time. This incident emphasizes the financial and reputational repercussions of insufficient data governance.
 
 ##### 5. Facebook–Cambridge Analytica Scandal (2018)
 
-In 2018, it was revealed that Cambridge Analytica had harvested data from up to 87 million Facebook users without their consent, using it for political advertising purposes. This scandal exposed significant lapses in data governance and user privacy protections. Facebook faced a $5 billion fine from the FTC and a £500,000 fine from the UK's Information Commissioner's Office. The case underscores the importance of transparent data practices and user consent in data governance frameworks.
+In 2018, it was revealed that Cambridge Analytica had harvested data from up to 87 million Facebook users without their consent, using it for political advertising purposes. This scandal exposed significant lapses in data governance and user privacy protections. Facebook faced a $5 billion fine from the FTC and a £500,000 fine from the UK's Information Commissioner's Office. The case underscores the importance of transparent data practices and user consent in data governance frameworks.
 
 #### So what?
 
 These cases illustrate the severe consequences organizations can face due to inadequate data governance, including substantial financial penalties and damage to reputation. Implementing robust data governance practices is essential to protect sensitive information, ensure compliance with regulations, and maintain public trust.
 
-GDPR Enforcement Tracker: https://www.enforcementtracker.com/
+[GDPR Enforcement Tracker](https://www.enforcementtracker.com/)
 
 ### Data Governance Policy Description
 
