@@ -1416,25 +1416,25 @@ Monitoring and controlling data quality ensures that high standards are consiste
 
 Data quality tools are essential for organizations to maintain and improve the quality of their data. These tools automate critical tasks, enhance operational efficiency, and ensure compliance with regulatory requirements. Here's a detailed look at why they are indispensable:
 
-#### Ensuring Accuracy and Reliability
+1. Ensuring Accuracy and Reliability
 
-- Automate the detection and correction of issues such as duplicates, missing values, and inconsistencies.
-- Improve the accuracy of datasets, ensuring reliable insights for decision-making.
+   - Automate the detection and correction of issues such as duplicates, missing values, and inconsistencies.
+   - Improve the accuracy of datasets, ensuring reliable insights for decision-making.
 
-#### Enhancing Efficiency
+1. Enhancing Efficiency
 
-- Reduce manual efforts involved in data profiling, cleansing, and validation.
-- Speed up processes, freeing teams to focus on strategic tasks.
+   - Reduce manual efforts involved in data profiling, cleansing, and validation.
+   - Speed up processes, freeing teams to focus on strategic tasks.
 
-#### Supporting Compliance
+1. Supporting Compliance
 
-- Ensure adherence to regulatory requirements such as GDPR and HIPAA.
-- Provide comprehensive audit trails and documentation to meet compliance standards.
+   - Ensure adherence to regulatory requirements such as GDPR and HIPAA.
+   - Provide comprehensive audit trails and documentation to meet compliance standards.
 
-#### Enabling Scalability
+1. Enabling Scalability
 
-- Handle large datasets and complex operations seamlessly.
-- Adapt to growing organizational data needs without significant manual intervention.
+   - Handle large datasets and complex operations seamlessly.
+   - Adapt to growing organizational data needs without significant manual intervention.
 
 #### Tasks Data Quality Tools Can Perform
 
@@ -1491,34 +1491,34 @@ Selecting the right data quality tool is critical for ensuring that your organiz
 | **Usability and Collaboration**       | Promoting adoption across teams with an intuitive interface.            | Low-code options, role-based access control, multi-user support with real-time changes.       |
 | **Vendor Support and Documentation**  | Ensuring smooth implementation and ongoing success.                     | Comprehensive guides, responsive customer support, regular updates and enhancements.          |
 
-### Why Choose the Right Tool Early
+#### Why Choose the Right Tool Early
 
 Choosing the right data quality tool as early as possible is crucial for the following reasons:
 
-#### Avoid Costly Rework
+1. Avoid Costly Rework
 
-- Implementing the wrong tool can result in wasted resources, as systems may need to be rebuilt or replaced later.
-- Correcting initial poor decisions increases project costs and delays.
+   - Implementing the wrong tool can result in wasted resources, as systems may need to be rebuilt or replaced later.
+   - Correcting initial poor decisions increases project costs and delays.
 
-#### Ensure Scalability
+1. Ensure Scalability
 
-- Early selection of a scalable tool ensures that the system can grow alongside your organization's needs.
-- A non-scalable tool may lead to limitations as data volume and complexity increase.
+   - Early selection of a scalable tool ensures that the system can grow alongside your organization's needs.
+   - A non-scalable tool may lead to limitations as data volume and complexity increase.
 
-#### Streamline Implementation
+1. Streamline Implementation
 
-- Choosing a tool early allows teams to align processes, training, and workflows around the selected system.
-- Delays in selection can create inefficiencies as teams work without a consistent framework.
+   - Choosing a tool early allows teams to align processes, training, and workflows around the selected system.
+   - Delays in selection can create inefficiencies as teams work without a consistent framework.
 
-#### Support Stakeholder Alignment
+1. Support Stakeholder Alignment
 
-- Early decisions foster collaboration by ensuring all stakeholders agree on the tools and processes.
-- Late-stage changes can disrupt workflows and reduce buy-in.
+   - Early decisions foster collaboration by ensuring all stakeholders agree on the tools and processes.
+   - Late-stage changes can disrupt workflows and reduce buy-in.
 
-#### Avoid Data Quality Debt
+1. Avoid Data Quality Debt
 
-- Starting with the right tool minimizes the accumulation of data quality issues that are harder to resolve later.
-- Proactive decisions lead to long-term improvements in data integrity.
+   - Starting with the right tool minimizes the accumulation of data quality issues that are harder to resolve later.
+   - Proactive decisions lead to long-term improvements in data integrity.
 
 #### Examples of Early Benefits
 
@@ -1534,29 +1534,29 @@ When selecting a data quality tool, focus on features that align with your organ
 
 ### Data Quality Tools Categorization
 
-#### Leaders
+1. Leaders
 
-- SAP LeanIX
-- Ardoq
-- Orbus Software
+   - SAP LeanIX
+   - Ardoq
+   - Orbus Software
 
-#### Challengers
+1. Challengers
 
-- ValueBlue
+   - ValueBlue
 
-#### Visionaries
+1. Visionaries
 
-- Capsifi
-- Bizzdesign
-- MEGA
+   - Capsifi
+   - Bizzdesign
+   - MEGA
 
-#### Niche Players
+1. Niche Players
 
-- Bee360
-- North Highland
-- UNICOM Systems
+   - Bee360
+   - North Highland
+   - UNICOM Systems
 
-### Comparative Table of Data Quality Tools
+#### Comparative Table of Data Quality Tools
 
 | **Tool**       | **Description**                                           | **Cost Range**          | **Pros**                                            | **Cons**                                             | **Key Features**                                               |
 | -------------- | --------------------------------------------------------- | ----------------------- | --------------------------------------------------- | ---------------------------------------------------- | -------------------------------------------------------------- |
@@ -1571,7 +1571,7 @@ When selecting a data quality tool, focus on features that align with your organ
 | North Highland | Consultancy-oriented tool for niche solutions.            | Variable                | Customizable for unique business needs.             | Dependent on consultancy engagement.                 | Industry-specific customization.                               |
 | UNICOM Systems | Business and IT integration tools with data alignment.    | Medium                  | Good integration capabilities.                      | Limited scalability.                                 | Business and IT alignment tools.                               |
 
-### In a Nutshell
+#### In a Nutshell
 
 This table highlights the key characteristics of various data quality tools categorized into Leaders, Challengers, Visionaries, and Niche Players. Choosing the right tool depends on your organizational needs, budget, and specific use cases. Leaders offer robust solutions for large enterprises, while Niche Players cater to specialized needs.
 
@@ -1581,7 +1581,7 @@ Both AWS and Google Cloud offer robust data quality tools as part of their cloud
 
 #### AWS Data Quality Tools
 
-1. **AWS Glue DataBrew**
+1. AWS Glue DataBrew
 
    - **Description**: A visual data preparation tool for cleaning and normalizing data without writing code.
    - **Key Features**: Data profiling, cleaning, transformation, and validation rules.
@@ -1589,7 +1589,7 @@ Both AWS and Google Cloud offer robust data quality tools as part of their cloud
    - **Pros**: Fully integrated with AWS services; user-friendly; no coding required.
    - **Cons**: Limited to AWS ecosystems; less flexible for external integrations.
 
-2. **Amazon Redshift Data Quality**
+1. Amazon Redshift Data Quality
    - **Description**: Offers data quality checks and monitoring for datasets stored in Amazon Redshift.
    - **Key Features**: Built-in quality checks, anomaly detection, and automated alerts.
    - **Cost Range**: Included with Redshift usage.
@@ -1598,7 +1598,7 @@ Both AWS and Google Cloud offer robust data quality tools as part of their cloud
 
 #### Google Cloud Data Quality Tools
 
-1. **Cloud Dataprep (Trifacta)**
+1. Cloud Dataprep (Trifacta)
 
    - **Description**: A data preparation tool for cleaning, enriching, and transforming data.
    - **Key Features**: Data profiling, cleansing, and enrichment; strong collaboration features.
@@ -1606,7 +1606,7 @@ Both AWS and Google Cloud offer robust data quality tools as part of their cloud
    - **Pros**: Easy to use; integrates with Google Cloud services like BigQuery and Dataflow.
    - **Cons**: Limited to Google Cloud; can be costly for large datasets.
 
-2. **BigQuery Data Quality and Monitoring**
+1. BigQuery Data Quality and Monitoring
    - **Description**: Data quality solutions built into BigQuery for ensuring clean and reliable data.
    - **Key Features**: Data validation, monitoring, and rule-based anomaly detection.
    - **Cost Range**: Included in BigQuery pricing (pay-as-you-go).
@@ -1632,35 +1632,35 @@ AWS and Google Cloud offer powerful tools for managing data quality in cloud env
 
 Data governance is all about managing data properly so everyone in the organization can trust and use it safely. It sets rules and responsibilities to keep data accurate, secure, and useful for making decisions.
 
-#### Keeps Data Consistent and Accurate
+1. Keeps Data Consistent and Accurate
 
-- Makes sure data is created and maintained using clear rules.
-- Helps different systems use the same data definitions, reducing confusion.
+   - Makes sure data is created and maintained using clear rules.
+   - Helps different systems use the same data definitions, reducing confusion.
 
-#### Helps with Legal and Compliance Requirements
+1. Helps with Legal and Compliance Requirements
 
-- Makes it easier to follow laws and regulations like GDPR (General Data Protection Regulation, a data privacy law in the European Union) or HIPAA (Health Insurance Portability and Accountability Act, a U.S. law protecting medical information).
-- Keeps records of how data is handled for audits and transparency.
+   - Makes it easier to follow laws and regulations like GDPR (General Data Protection Regulation, a data privacy law in the European Union) or HIPAA (Health Insurance Portability and Accountability Act, a U.S. law protecting medical information).
+   - Keeps records of how data is handled for audits and transparency.
 
-#### Supports Better Decisions
+1. Supports Better Decisions
 
-- Ensures the right people have access to clean and reliable data.
-- Builds trust in the data used for reports, planning, and daily work.
+   - Ensures the right people have access to clean and reliable data.
+   - Builds trust in the data used for reports, planning, and daily work.
 
-#### Improves Data Privacy and Security
+1. Improves Data Privacy and Security
 
-- Defines who owns the data and who can access it.
-- Reduces the chances of data breaches or misuse.
+   - Defines who owns the data and who can access it.
+   - Reduces the chances of data breaches or misuse.
 
-#### Makes Work More Efficient
+1. Makes Work More Efficient
 
-- Cuts down on fixing errors caused by bad data.
-- Saves time with shared rules and clear processes.
+   - Cuts down on fixing errors caused by bad data.
+   - Saves time with shared rules and clear processes.
 
-#### Builds Trust and Accountability
+1. Builds Trust and Accountability
 
-- Assigns clear roles like data owners and stewards.
-- Encourages teams to work together on managing data.
+   - Assigns clear roles like data owners and stewards.
+   - Encourages teams to work together on managing data.
 
 #### Example Scenarios
 
@@ -1682,7 +1682,7 @@ Data quality and data governance are connected but focus on different things. Da
 
 Data quality is how good and useful the data is. It answers the question: "Can we trust and use this data?"
 
-**Key points:**
+Key points:
 
 - **Accuracy**: Is the information correct?
 - **Completeness**: Is anything missing?
@@ -1694,7 +1694,7 @@ Data quality is how good and useful the data is. It answers the question: "Can w
 
 Data governance is the set of rules and people responsible for managing data in an organization. It helps decide who can do what with the data.
 
-**Key points:**
+Key points:
 
 - Policies and standards for how data is handled
 - Clear roles like data owners and stewards
@@ -1729,20 +1729,21 @@ Data governance is how a company sets up **rules, processes, and responsibilitie
 
 #### Key Elements
 
-- **Rules and Policies**: These include decisions like:
+1. **Rules and Policies**: These include decisions like:
 
-  - How long we keep data.
-  - Where we store data.
-  - Who should have access to which types of data.
+   - How long we keep data.
+   - Where we store data.
+   - Who should have access to which types of data.
 
-- **Processes**: These are the workflows that help keep data up to date and protected. For example:
+1. **Processes**: These are the workflows that help keep data up to date and protected. For example:
 
-  - How someone can request access to data.
-  - What steps are followed to keep data accurate and secure.
+   - How someone can request access to data.
+   - What steps are followed to keep data accurate and secure.
 
-- **Accountability**: This defines who is in charge of data across the organization:
-  - Who is responsible for each type of data.
-  - Who makes decisions about how different data sources are used.
+1. **Accountability**: This defines who is in charge of data across the organization:
+
+   - Who is responsible for each type of data.
+   - Who makes decisions about how different data sources are used.
 
 #### In a Nutshell
 
@@ -1752,40 +1753,40 @@ Data governance helps an organization take control of its data by setting up cle
 
 Data governance gives an organization structure and control over how data is handled. Without it, data can quickly become messy, unreliable, or even risky to use. Here are the main reasons why data governance is important:
 
-#### To Improve Data Quality
+1. To Improve Data Quality
 
-- Makes sure data is accurate, complete, and consistent across the company.
-- Reduces errors, duplicates, and outdated information.
+   - Makes sure data is accurate, complete, and consistent across the company.
+   - Reduces errors, duplicates, and outdated information.
 
-#### To Protect Sensitive Data
+1. To Protect Sensitive Data
 
-- Helps control who can access what data.
-- Prevents unauthorized access, data leaks, and misuse.
+   - Helps control who can access what data.
+   - Prevents unauthorized access, data leaks, and misuse.
 
-#### To Support Better Decision-Making
+1. To Support Better Decision-Making
 
-- When data is clean and trusted, people can make better business decisions.
-- Builds confidence in reports and analytics.
+   - When data is clean and trusted, people can make better business decisions.
+   - Builds confidence in reports and analytics.
 
-#### To Stay Compliant with Laws and Regulations
+1. To Stay Compliant with Laws and Regulations
 
-- Helps the organization follow privacy and security rules like GDPR or HIPAA.
-- Makes it easier to prove compliance during audits.
+   - Helps the organization follow privacy and security rules like GDPR or HIPAA.
+   - Makes it easier to prove compliance during audits.
 
-#### To Clarify Roles and Responsibilities
+1. To Clarify Roles and Responsibilities
 
-- Defines who owns, manages, and makes decisions about data.
-- Reduces confusion and creates accountability.
+   - Defines who owns, manages, and makes decisions about data.
+   - Reduces confusion and creates accountability.
 
-#### To Increase Operational Efficiency
+1. To Increase Operational Efficiency
 
-- Reduces time spent searching for, fixing, or duplicating data.
-- Helps teams work more smoothly with shared data rules and processes.
+   - Reduces time spent searching for, fixing, or duplicating data.
+   - Helps teams work more smoothly with shared data rules and processes.
 
-#### To Enable Trust and Collaboration
+1. To Enable Trust and Collaboration
 
-- When data is reliable and well-managed, teams are more likely to use and share it.
-- Builds a culture of transparency and shared responsibility.
+   - When data is reliable and well-managed, teams are more likely to use and share it.
+   - Builds a culture of transparency and shared responsibility.
 
 #### In a Nutshell
 
@@ -1807,25 +1808,25 @@ Certainly! Below is a document summarizing major data governance failures, inclu
 
 #### Detailed Case Descriptions
 
-##### 1. Securitas Data Exposure (2021)
+1. Securitas Data Exposure (2021)
 
-In 2021, Securitas experienced a significant data breach due to a misconfigured Amazon S3 bucket, which left over 3TB of sensitive data publicly accessible. The exposed data included personal information of airport employees in Colombia and Peru, such as ID cards and photographs with embedded metadata. This breach highlighted severe lapses in data governance, particularly in securing cloud storage configurations. Potential fines under various data protection laws were anticipated, emphasizing the financial risks associated with poor data management practices.
+   In 2021, Securitas experienced a significant data breach due to a misconfigured Amazon S3 bucket, which left over 3TB of sensitive data publicly accessible. The exposed data included personal information of airport employees in Colombia and Peru, such as ID cards and photographs with embedded metadata. This breach highlighted severe lapses in data governance, particularly in securing cloud storage configurations. Potential fines under various data protection laws were anticipated, emphasizing the financial risks associated with poor data management practices.
 
-##### 2. SingHealth Data Breach (2018)
+1. SingHealth Data Breach (2018)
 
-Singapore's largest healthcare group, SingHealth, suffered a cyberattack in 2018 that compromised the personal data of 1.5 million patients, including Prime Minister Lee Hsien Loong. The breach was attributed to inadequate cybersecurity measures and delayed incident response. Consequently, the Personal Data Protection Commission (PDPC) imposed fines totaling S$1 million, with S$750,000 levied on Integrated Health Information Systems (IHiS) and S$250,000 on SingHealth. This incident underscored the importance of robust data governance in the healthcare sector.
+   Singapore's largest healthcare group, SingHealth, suffered a cyberattack in 2018 that compromised the personal data of 1.5 million patients, including Prime Minister Lee Hsien Loong. The breach was attributed to inadequate cybersecurity measures and delayed incident response. Consequently, the Personal Data Protection Commission (PDPC) imposed fines totaling S$1 million, with S$750,000 levied on Integrated Health Information Systems (IHiS) and S$250,000 on SingHealth. This incident underscored the importance of robust data governance in the healthcare sector.
 
-##### 3. Equifax Data Breach (2017)
+1. Equifax Data Breach (2017)
 
-In 2017, Equifax, one of the major credit reporting agencies, experienced a data breach that exposed the personal information of approximately 147 million individuals. The breach resulted from Equifax's failure to patch a known vulnerability in a timely manner. The company faced a settlement of up to $700 million with the Federal Trade Commission (FTC), the Consumer Financial Protection Bureau (CFPB), and 50 U.S. states and territories. This case highlights the critical need for proactive data governance and timely security updates.
+   In 2017, Equifax, one of the major credit reporting agencies, experienced a data breach that exposed the personal information of approximately 147 million individuals. The breach resulted from Equifax's failure to patch a known vulnerability in a timely manner. The company faced a settlement of up to $700 million with the Federal Trade Commission (FTC), the Consumer Financial Protection Bureau (CFPB), and 50 U.S. states and territories. This case highlights the critical need for proactive data governance and timely security updates.
 
-##### 4. British Airways Data Breach (2018)
+1. British Airways Data Breach (2018)
 
-British Airways faced a cyberattack in 2018 that compromised the personal and financial details of over 400,000 customers. The breach was due to poor security measures, including inadequate protection of user data. The Information Commissioner's Office (ICO) initially issued a fine of £183 million, later reduced to £20 million, marking it as one of the largest penalties under GDPR at the time. This incident emphasizes the financial and reputational repercussions of insufficient data governance.
+   British Airways faced a cyberattack in 2018 that compromised the personal and financial details of over 400,000 customers. The breach was due to poor security measures, including inadequate protection of user data. The Information Commissioner's Office (ICO) initially issued a fine of £183 million, later reduced to £20 million, marking it as one of the largest penalties under GDPR at the time. This incident emphasizes the financial and reputational repercussions of insufficient data governance.
 
-##### 5. Facebook–Cambridge Analytica Scandal (2018)
+1. Facebook–Cambridge Analytica Scandal (2018)
 
-In 2018, it was revealed that Cambridge Analytica had harvested data from up to 87 million Facebook users without their consent, using it for political advertising purposes. This scandal exposed significant lapses in data governance and user privacy protections. Facebook faced a $5 billion fine from the FTC and a £500,000 fine from the UK's Information Commissioner's Office. The case underscores the importance of transparent data practices and user consent in data governance frameworks.
+   In 2018, it was revealed that Cambridge Analytica had harvested data from up to 87 million Facebook users without their consent, using it for political advertising purposes. This scandal exposed significant lapses in data governance and user privacy protections. Facebook faced a $5 billion fine from the FTC and a £500,000 fine from the UK's Information Commissioner's Office. The case underscores the importance of transparent data practices and user consent in data governance frameworks.
 
 #### So what?
 
@@ -1877,13 +1878,13 @@ The policy breaks down into a set of guiding principles that define the mindset 
 
 To measure the success of data governance, the following core data quality dimensions are monitored:
 
-- **Accessibility** – Is the data available to authorized users?
-- **Accuracy** – Is the data correct and trustworthy?
-- **Completeness** – Is any data missing?
-- **Consistency** – Does the data match across systems?
-- **Relevance (non-obsolete)** – Is the data current and meaningful?
-- **Timeliness** – Is the data available when needed?
-- **Uniqueness** – Are there any duplicates or unnecessary copies?
+- **Accessibility**: Is the data available to authorized users?
+- **Accuracy**: Is the data correct and trustworthy?
+- **Completeness**: Is any data missing?
+- **Consistency**: Does the data match across systems?
+- **Relevance (non-obsolete)**: Is the data current and meaningful?
+- **Timeliness**: Is the data available when needed?
+- **Uniqueness**: Are there any duplicates or unnecessary copies?
 
 #### In a Nutshell
 
@@ -1905,39 +1906,40 @@ To ensure accountability for data exists at every level. This approach minimizes
 
 Roles are distributed across five organizational levels:
 
-- **Executive**
+1. Executive
 
-  - Sets strategic direction and governance priorities.
-  - Approves policies and data initiatives.
-  - Provides budget and resources.
-  - Champions data governance across the organization.
+   - Sets strategic direction and governance priorities.
+   - Approves policies and data initiatives.
+   - Provides budget and resources.
+   - Champions data governance across the organization.
 
-- **Strategic**
+1. Strategic
 
-  - Defines data governance policies and frameworks.
-  - Assigns data ownership and stewardship.
-  - Oversees compliance and governance performance.
-  - Aligns governance practices with business objectives.
+   - Defines data governance policies and frameworks.
+   - Assigns data ownership and stewardship.
+   - Oversees compliance and governance performance.
+   - Aligns governance practices with business objectives.
 
-- **Tactical**
+1. Tactical
 
-  - Coordinates data governance activities between departments.
-  - Supports adoption of policies and standards.
-  - Ensures data quality practices are followed.
-  - Facilitates communication and issue resolution.
+   - Coordinates data governance activities between departments.
+   - Supports adoption of policies and standards.
+   - Ensures data quality practices are followed.
+   - Facilitates communication and issue resolution.
 
-- **Operational**
+1. Operational
 
-  - Maintains data accuracy and completeness.
-  - Follows policies in day-to-day data use.
-  - Reports data issues or inconsistencies.
-  - Helps enforce data access and classification rules.
+   - Maintains data accuracy and completeness.
+   - Follows policies in day-to-day data use.
+   - Reports data issues or inconsistencies.
+   - Helps enforce data access and classification rules.
 
-- **Support**
-  - Delivers systems and technical tools.
-  - Manages data infrastructure and platforms.
-  - Ensures integration of governance rules in technology.
-  - Provides analytics, automation, and metadata management.
+1. Support
+
+   - Delivers systems and technical tools.
+   - Manages data infrastructure and platforms.
+   - Ensures integration of governance rules in technology.
+   - Provides analytics, automation, and metadata management.
 
 #### When
 
